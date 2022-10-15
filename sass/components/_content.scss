@@ -1,0 +1,9 @@
+.content {
+  @include flex(column, center, center);
+  color: $orange;
+  height: 100vh;
+  font-family: $main-font;
+  button {
+    @include button-style;
+  }
+}
